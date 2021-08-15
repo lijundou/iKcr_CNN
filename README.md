@@ -1,5 +1,5 @@
 1. Description 
- iKcr_CNNs is a novel bioinformatics tool to predict human non-histone Kcr sites based on the convolutional neuron network architecture, and the focal loss is implemented to solve the imbalance problem of data distribution. The software can be freely downloaded from the Git-Hub platform:  https://github.com/lijundou/iKcr_CNN/tree/master. 
+ iKcr_CNNs is a novel bioinformatics tool to predict human non-histone Kcr sites based on the convolutional neuron network architecture, and the focal loss is implemented to solve the imbalance problem of data distribution. The software can be freely downloaded from the Git-Hub platform:  https://github.com/lijundou/iKcr_CNN/. 
 2. Requirements 
 Before prediction, please make sure the following packages are installed in the Python environment: 
 python==3.6.13
