@@ -10,8 +10,8 @@ pandas==1.1.5
 scikit_learn=0.24.2
 Here, we provided both CPU and GPU-based models. For fast prediction, it is recommended to install the tensorflow package of GPU version if GPU is available.
 #3 Running 
-	Prepare a Fasta file to record the protein sequence to be predicted;
-	run the following command to perform prediction:
+1）	Prepare a Fasta file to record the protein sequence to be predicted;
+2）	Run the following command to perform prediction:
        If CPU: python iKcr_CNN_cpu.py -i  example.fasta -o results.csv
        If GPU: python iKcr_CNN_gpu.py -i  example.fasta -o results.csv
-	The prediction results are summarized in the file ‘results.csv’, including four columns of ‘Protein ID’, ‘Sequence’, ‘Probability’ and ‘Label’. 
+3)	The prediction results are summarized in the file results file, including four columns of 'Model name', 'Protein ID', 'Sequence', 'Score' and 'Label'. 
