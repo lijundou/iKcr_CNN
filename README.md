@@ -1,7 +1,7 @@
-#1. Description  <br>
+1. Description  <br>
 It is a novel bioinformatics tool, named iKcr_CNN, to predict human non-histone Kcr sites based on the convolutional neuron network architecture, and the focal loss is implemented to solve the imbalance problem of data distribution. The software can be freely downloaded from the Git-Hub platform:  https://github.com/lijundou/iKcr_CNN/. <br>
-#2. Requirements <br>
->Before prediction, please make sure the following packages are installed in the Python environment: <br>
+2. Requirements <br>
+Before prediction, please make sure the following packages are installed in the Python environment: <br>
 python==3.6.13 <br>
 keras==2.2.4 /<br>
 tensorflow==1.12.0 <br>
